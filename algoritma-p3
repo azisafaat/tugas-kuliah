@@ -1,0 +1,16 @@
+# Membaca jumlah kelereng Aldi dari input pengguna
+jumlah_kelereng_aldi = int(input("Masukkan jumlah kelereng Aldi: "))
+
+# Menghitung jumlah kelereng Budi
+jumlah_kelereng_budi = jumlah_kelereng_aldi - 15
+
+# Menghitung jumlah kelereng Anto
+jumlah_kelereng_anto = 2 * (jumlah_kelereng_aldi + jumlah_kelereng_budi)
+
+# Menghitung jumlah kelereng Agung
+jumlah_kelereng_agung = jumlah_kelereng_aldi + jumlah_kelereng_budi + jumlah_kelereng_anto - 5
+
+# Menampilkan jumlah kelereng Budi, Anto, dan Agung
+print("Jumlah kelereng Budi:", jumlah_kelereng_budi)
+print("Jumlah kelereng Anto:", jumlah_kelereng_anto)
+print("Jumlah kelereng Agung:", jumlah_kelereng_agung)
